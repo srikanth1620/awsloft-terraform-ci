@@ -19,7 +19,7 @@ Parameters:
 
   GitHubOwner:
     Description: 'The owner of the GitHub repository.'
-    Default: "cloudreach"
+    Default: "srikanth1620"
     Type: String
   GitHubOAuthToken:
     Description: 'The OAuthToken of the GitHub user.'
