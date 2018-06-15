@@ -24,6 +24,7 @@ variable "environment" {
 
 variable "ami_id" {
   description = "AMI Id"
+  default = "ami-14c5486b"
 }
 
 variable "vpc_id" {
