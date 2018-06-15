@@ -9,7 +9,7 @@ Parameters:
 
   ArtifactBucketName:
     Type: String
-    Default: "aws-loft-de-terraform"
+    Default: "aws-loft-de-terraform-sri100"
     Description: Artifact S3 BucketName
 
   DockerBuildImage:
@@ -43,7 +43,8 @@ Resources:
   ArtifactStoreBucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Sub ${ArtifactBucketName}-${AWS::Region}
+      #BucketName: !Sub ${ArtifactBucketName}-${AWS::Region}
+      BucketName: !Sub ${ArtifactBucketName}
       VersioningConfiguration:
         Status: Enabled
       AccessControl: BucketOwnerFullControl

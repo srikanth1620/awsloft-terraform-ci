@@ -9,7 +9,7 @@ variable "region" {
 terraform {
   required_version = ">= 0.10.5"
   backend "s3" {
-    bucket = "aws-loft-de-terraform"
+    bucket = "aws-loft-de-terraform-sri100"
     key    = "iam/terraform.tfstate"
     region = "us-east-1"
     encrypt = true
@@ -20,7 +20,7 @@ terraform {
 data "terraform_remote_state" "default" {
   backend = "s3"
   config {
-    bucket = "aws-loft-de-terraform"
+    bucket = "aws-loft-de-terraform-sri100"
     key    = "iam/terraform.tfstate"
     region = "us-east-1"
     encrypt = true
