@@ -9,7 +9,7 @@ Parameters:
 
   ArtifactBucketName:
     Type: String
-    Default: "aws-loft-de-terraform"
+    Default: "aws-loft-de-terraform-sri"
     Description: Artifact S3 BucketName
 
   DockerBuildImage:
