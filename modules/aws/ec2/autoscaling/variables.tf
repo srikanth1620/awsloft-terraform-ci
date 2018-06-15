@@ -32,7 +32,7 @@ variable "vpc_id" {
 
 variable "route53_domain" {
   description = "route53_domain"
-  default = "aws-loft.cloudreach.com"
+  default = ".sriaws.com"
 }
 
 
