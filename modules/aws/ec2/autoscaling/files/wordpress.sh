@@ -75,11 +75,11 @@ if ! $(sudo -u www-data /usr/local/bin/wp core is-installed); then
 	chown www-data:www-data /var/www/html/* -R
 
 	sudo -u www-data /usr/local/bin/wp core install \
-	--url='www-${environment}.${route53_domain}' --title='Cloudreach AWS Loft - ${environment}' \
+	--url='www-${environment}.${route53_domain}' --title='srikanth1620 AWS Loft - ${environment}' \
 	--admin_user='root' --admin_password='wordpress234' \
-  --admin_email='aws-loft@cloudreach.com'
+  --admin_email='srikanth.srinivasa@gmail.com'
 
-	wget -q https://raw.githubusercontent.com/cloudreach/awsloft-terraform-ci/master/resources/AWS_Pop_Up_Loft_Munich.jpg -O /var/www/html/wp-content/themes/twentyseventeen/assets/images/header.jpg
+	wget -q https://raw.githubusercontent.com/srikanth1620/awsloft-terraform-ci/master/resources/AWS_Pop_Up_Loft_Munich.jpg -O /var/www/html/wp-content/themes/twentyseventeen/assets/images/header.jpg
 
 	chown www-data:www-data /var/www/html/wp-content/themes/twentyseventeen/assets/images/header.jpg
 
