@@ -5,4 +5,4 @@ Credits
 Owner
 -----
 
-* Giulio Calzolari `@giuliocalzo <https://github.com/giuliocalzolari)>`_
+Sri
