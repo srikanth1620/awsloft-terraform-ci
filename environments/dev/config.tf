@@ -1,4 +1,4 @@
-
+# adding a comment here 
 variable "region" {
   default     = "us-east-1"
   description = "The region to deploy the cluster in, e.g: us-east-1."
