@@ -2,7 +2,7 @@
 Credits
 =======
 
-Owner
+wner
 -----
 
 01
